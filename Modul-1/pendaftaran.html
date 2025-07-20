@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulir Pendaftaran Mahasiswa Baru</title>
+</head>
+
+<body>
+
+    <h1>Formulir Pendaftaran Mahasiswa Baru</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Data Pribadi</legend>
+
+            <label for="nama">Nama Lengkap:</label><br>
+            <input type="text" id="nama" name="nama" placeholder="Contoh: Andi Fausan" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Contoh: andi@gmail.com" required><br><br>
+
+            <label>Jenis Kelamin:</label><br>
+            <input type="radio" id="pria" name="gender" value="Pria" required>
+            <label for="pria">Pria</label>
+            <input type="radio" id="wanita" name="gender" value="Wanita">
+            <label for="wanita">Wanita</label><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Hobi</legend>
+            <input type="checkbox" id="membaca" name="hobi" value="Membaca">
+            <label for="membaca">Membaca</label><br>
+
+            <input type="checkbox" id="olahraga" name="hobi" value="Olahraga">
+            <label for="olahraga">Olahraga</label><br>
+
+            <input type="checkbox" id="musik" name="hobi" value="Musik">
+            <label for="musik">Musik</label><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Jurusan</legend>
+            <label for="jurusan">Pilih Jurusan:</label><br>
+            <select id="jurusan" name="jurusan" required>
+                <option value="">-- Pilih Jurusan --</option>
+                <option value="Teknik Informatika">Teknik Informatika</option>
+                <option value="Manajemen">
+                    <Table>Teknik Elektro</Table>
+                </option>
+                <option value="Akuntansi">Akuntansi</option>
+            </select><br><br>
+        </fieldset>
+
+        <label for="alamat">Alamat Lengkap:</label><br>
+        <textarea id="alamat" name="alamat" rows="4" cols="40"
+            placeholder="Tulis alamat lengkap Anda di sini"></textarea><br><br>
+
+        <input type="submit" value="Kirim Formulir">
+
+    </form>
+
+    <br>
+    <img src="foto.jpg" alt="Logo Kampus" width="150">
+
+    <p>Kunjungi website kampus: <a href="http://www.stitek.ac.id" target="_blank">STITEK</a></p>
+
+</body>
+
+</html>
