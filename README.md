@@ -5,7 +5,7 @@ Repositori ini berisi kumpulan tugas praktikum dari mata kuliah **Pemrograman We
 
 ## Daftar Isi
 
-### raktikum-PemrogramanWeb7
+### Praktikum-PemrogramanWeb7
 
 Berisi modul 1 sampai 3 yang mencakup dasar-dasar HTML, CSS, dan Bootstrap.
 
